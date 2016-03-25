@@ -235,7 +235,7 @@ public class SystemUtils {
     /**
      * 현재 Version Name 반환
      */
-    public static String getRealCurrentAppVersion(Context context) {
+    public static String getAppVersion(Context context) {
         String version = null;
 
         try {
